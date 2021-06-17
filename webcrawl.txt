@@ -1,0 +1,29 @@
+create new documents
+
+
+function (doc, ctx) {
+  var newDocs = [];
+  // add your logic here
+    var id = doc.getId();
+    var sourceField = doc.getFieldValues('ft_news_art');
+    //var images = doc.getFieldValues('ft_news_img');
+    
+    if(sourceField != null){
+      for(var i=0;i<sourceField.length;i++)
+      {
+        var newDoc = new com.lucidworks.apollo.common.pipeline.PipelineDocument(id + '-' + i);
+        newDoc.addField("body", sourceField[i]);
+        var sFTitle = "";
+        if(sourceField[i].length > 30){
+          sFTitle = "Financial Times: " + sourceField[i].substring(0,30) + "...";
+        }
+        newDoc.addField("data_source", "External");
+        newDoc.addField("title", sFTitle);
+        newDoc.addField("news_source", "Financial Times");
+        newDoc.addField("_lw_data_source_s", "web-santander");
+        //newDoc.addField("news_image",images[i]);   
+        newDocs.push(newDoc);
+      }
+    } 
+  return newDocs;
+}

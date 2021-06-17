@@ -1,0 +1,676 @@
+id,term,meaning
+12,AfS,AFS
+15,AIF,AIF
+19,A-IRB,AIRB
+25,AMML,ALMM
+37,AT-1,AT1
+70,CA-Template,CA
+101,CET,CET1
+103,CET-1,CET1
+133,CoRep,COREP
+134,CoREP,COREP
+147,CRD4,CRD IV
+148,CRDIV,CRD IV
+149,CRD-IV,CRD IV
+170,DC,DC
+173,DFR,DFR
+184,DG-L,DGL
+185,DGLegal,DGL
+186,DG-Legal,DGL
+201,DG-SLA,DGL/SLA
+188,DG-MS,DGMS
+176,DG1,DGMS1
+189,DGMS1,DGMS1
+190,DG-MS1,DGMS1
+191,DG-MS1or,DGMS1
+177,DG2,DGMS2
+192,DGMS2,DGMS2
+193,DG-MS2,DGMS2
+194,DGMS3,DGMS3
+178,DG4,DGMS4
+179,DG4for,DGMS4
+181,DGIV,DGMS4
+182,DG-IV,DGMS4
+196,DG-MS4,DGMS4
+197,DG-MSIV,DGMS4
+198,DG-MS-IV,DGMS4
+202,DG-SUP,DGS/SUP
+705,SUP,DGS/SUP
+214,DSSB,DGSSB
+215,DSTI,DSTI
+129,COM,EC
+232,ECA,ECA
+734,UE,EU
+298,FiCoD,FICOD
+305,F-IRB,FIRB
+329,FVPL,FVTPL
+340,GoC,GovC
+397,IOSCO,IOSCO
+407,IRRB,IRRBB
+409,IRRBGB,IRRBB
+418,ITSArticle,ITS
+425,KfW,KfW
+451,LR2,LR
+452,LR4,LR
+464,LU,LUX
+467,LX,LUX
+493,MR2,MR
+500,MSD-SPO,MSD
+529,NPloan,NPL
+551,OSII,O-SII
+556,P&L,P&L
+557,P/E,P/E
+595,RAF-Strategy,RAF
+613,RoA,ROA
+618,RREloan,RRE
+664,SPE2,SPE
+666,SPO4,SPO
+667,SPOThe,SPO
+656,SMM,SSM
+679,SSM-ECB,SSM
+681,SSM-FR,SSMFR
+692,STE05,STE
+693,STE06,STE
+694,STE08,STE
+695,STE09,STE
+696,STE10,STE
+697,STE13,STE
+719,T-LTRO,TLTRO
+731,UCIT,UCITS
+733,UCSI,UCITS
+739,USA,US
+664,SPE2,SPE
+734,UE,EU
+740,abcp,asset backed commercial paper
+741,abr,administrative board of review
+742,abs,asset backed security
+743,abspp,asset backed securities purchase programme
+744,ach,automated clearing house
+745,acpr,autorite de controle prudentiel et de resolution
+746,ae-ass,asset encumbrance assets of the institution
+747,afs,available for sale
+748,ag,aktiengesellschaft
+749,agm,annual general meeting
+750,airb,advanced internal rating based approach
+751,almm,additional liquidity monitoring metrics
+752,ama,advanced measurement approach
+753,amc,asset management company
+754,aml,anti money laundering
+755,anacredit,european analytical credit dataset (ecb proposal)
+756,anfa,agreement on net financial assets
+757,aqr,asset quality review
+758,art,alternative risk transfer
+759,aslp,automated security lending programme
+760,at1,additional tier 1 [capital instrument]
+761,aut,authorisation division
+762,ava,additional valuation adjustment
+763,avc,asset value correlation
+764,bafin,german federal financial supervisory authority
+765,bau,business of usual
+766,bb,banking book
+767,bcbs,basel committee on banking supervision
+768,bcr,basic capital requirements
+769,bdi,banca dâ€™italia
+770,bia,basic indicator approach
+771,bic,business identifier code
+772,bis,bank for international settlements
+773,bod,board of directors
+774,bph,business practice handbook
+775,bpi,banco bpi
+776,bpm6,balance of payments and international investment position manual
+777,brrd,bank recovery and resolution directive
+778,bu,banking union
+779,ca,comprehensive assessment
+780,cape,cyclically adjusted price/earnings (ratio)
+781,capm,capital asset pricing model
+782,car,capital adequacy ratio
+783,cas,capital adequacy statement
+784,cboe,chicago board options exchange
+785,cbpp,covered bond purchase programme
+786,cbr,combined buffer requirement
+787,cbsg,cross border stability group
+788,ccar,comprehensive capital analysis and review
+789,ccb,capital conservation buffer
+790,ccbm,correspondent central banking model
+791,ccbm2,collateral central bank management
+792,ccf,credit conversion factor
+793,ccob,capital conservation buffer
+794,ccp,central counterparty
+795,ccr,counterparty credit risk
+796,ccyb,countercyclical capital buffer
+797,cd,certificate of deposit
+798,cdc,caisse des dã©pã´ts et consignations
+799,cdd,customer due diligence
+800,cdo,collateralised debt obligation
+801,cdr,constant default rate
+802,cds,credit default swap
+803,cebs,committee of european banking supervisors
+804,ceiops,committee of european insurance and occupational pensions supervisors
+805,cem,current exposure method
+806,ceo,chief executive officer
+807,cesame,clearing and settlement advisory and monitoring expert group
+808,cesame2,clearing and settlement advisory and monitoring expert group 2
+809,cesr,committee of european securities regulators
+810,cet1,common equity tier 1
+811,cfc,controlled foreign corporation/company/institution
+812,cfd,contract for difference
+813,cfo,chief financial officer
+814,cfr,credit file review
+815,cftc,u.s. commodity futures trading commission
+816,cgd,caixa geral de depositos
+817,cgfs,committee on the global financial system
+818,cib,corporate and investment banking
+819,cir,cost/income ratio
+820,ciss,composite indicator of systemic stress
+821,ciu,collective investment undertaking
+822,clob,central limit order book
+823,cls,continuous linked settlement
+824,cmbs,commercial mortgage backed security
+825,cmd,crisis management division
+826,cmf,french monetary and financial code
+827,cmg,crisis management group
+828,cmu,capital markets union
+829,cnav,constant net asset value
+830,coco,contingent convertible bond
+831,cogesi ,contact group on euro securities infrastructures
+832,coi,centralised on site inspections division
+833,consob,commissione nazionale per le societa e la borsa
+834,corep,common solvency ratio reporting
+835,cp,commercial paper
+836,cpmi,committee on payments and market infrastructures
+837,cpr,constant prepayment rate
+838,cpsips,core principles for systemically important payment systems
+839,cpss,committee on payment and settlement systems
+840,cr,credit risk
+841,craecl,credit risk and accounting for expected credit losses
+842,crar,capital to risk (weighted) assets ratio
+843,crbf,comite de la reglementation bancaire et financiere
+844,crd,capital requirements directive
+845,cre,commercial real estate
+846,crm,credit risk mitigation
+847,cro,chief risk officer
+848,crr,capital requirements regulation
+849,crwa,credit risk weighted asset
+850,csa,credit support annex
+851,csd,central securities depository
+852,cse,covered swap entity
+853,csm,clearing and settlement mechanism
+854,cspp,corporate sector purchase programme
+855,cssf,autorite de controle prudentiel et de resolution
+856,ct1,core tier 1
+857,cusip,committee on uniform security identification procedures
+858,cva,credit valuation adjustment
+859,da,delegated act
+860,db,defined benefit
+861,dbpfa,defined benefit pension fund assets
+862,ddg,deputy director general
+863,dfsa,dubai financial services authority
+864,dg,directorate general
+865,dgi,data gaps initiative
+866,dgl,directorate general legal
+867,dgms,directorate general micro supervision
+868,dgms4,directorate general micro supervision 4
+869,dgs,deposit guarantee scheme
+870,dgsd,deposit guarantee scheme directive
+871,dif,deposit insurance fund
+872,div,data integrity validation
+873,dlt,distributed ledger technology
+874,dnb,de nederlandsche bank
+875,dpm,data point model
+876,dre,deposit rate elasticity
+877,drlcr,delegated regulation with regard to liquidity coverage requirement
+878,dsgv,deutscher sparkassen und giroverband
+879,d-sib,domestic systemically important bank
+880,dsr,debt service ratio
+881,dta,deferred tax asset
+882,dtc,deferred tax credits
+883,dti,debt to income
+884,dtls,deferred tax liabilities
+885,dva,debt valuation adjustment
+886,dvd,delivery versus delivery securities settlement mechanism
+887,dvp,delivery versus payment securities settlement mechanism
+888,eaa,euro area accounts
+889,ead,exposure at default
+890,eba,european banking authority
+891,ebitda,"earnings before interest, taxes, depreciation and amortisation"
+892,ebp,excess bond premium
+893,ebpp,electronic bill presentment and payment
+894,ec,european commission
+895,ecaf,eurosystem credit assessment framework
+896,ecai,external credit assessment institution
+897,ecb,european central bank
+898,ecj,european court of justice
+899,ecl,expected credit loss
+900,ecn,electronic communications network
+901,edf,expected default frequency
+902,edi,electronic data interchange
+903,edis,european deposit insurance scheme
+904,eea,european economic area
+905,eec,european economic community
+906,efc,economic and financial committee
+907,efsf,european financial stability facility
+908,efsi,european fund for strategic investments
+909,eftpos,electronic funds transfer at point of sale
+910,egbpi,"expert group on banking, payments and insurance"
+911,egma,ecb guide on materiality assessment
+912,eib,european investment bank
+913,eiopa,european insurance and occupational pensions authority
+914,el,expected loss
+915,elbe,expected loss best estimate
+916,elmi,electronic money institution
+917,em,emerging markets
+918,emir,european market infrastructure regulation
+919,emu,economic and monetary union
+920,emv,"europay, mastercard and visa"
+921,eonia,euro overnight index average
+922,epc,european payments council
+923,epe,expected positive exposure
+924,erf,"european resolution fund (often single resolution fundâ, seesrf)"
+925,erm,enterprise risk management
+926,erpb,euro retail payments board
+927,esa,european supervisory authority
+928,escb,european system of central banks
+929,escg,european systemic cyber group
+930,esfs,european system of financial supervision
+931,esm,european stability mechanism
+932,esma,european securities and markets authority
+933,esrb,european systemic risk board
+934,etc,early termination clauses
+935,etd,exchange traded derivative
+936,etf,exchange traded fund
+937,eu,european union
+938,eur,euro
+939,eurepo,repo market reference rate for the euro
+940,euribor,euro interbank offered rate
+941,ev,economic value
+942,eve,economic value of equity
+943,ewi,early warning indicator
+944,fap,fit and proper
+945,fasb,financial accounting standards board
+946,fatca,foreign account tax compliance act
+947,fca,financial conduct authority
+948,fccm,financial collateral comprehensive method
+949,fed,federal reserve bank (usa)
+950,fei,fully exempted inflows
+951,fhc,financial holding company
+952,ficod,financial conglomerates directive
+953,fifo,"first in, first out"
+954,fincen,financial crimes enforcement network
+955,finrep,financial reporting
+956,fintech,financial technology
+957,firb,foundation internal ratings based approach
+958,fisma,"financial stability, financial services and capital markets union"
+959,fmi,financial market infrastructure
+960,foltf,failing or likely to fail
+961,fr,france
+962,fra,forward rate agreement
+963,frtb,fundamental review of the trading book
+964,fsa,financial supervisory authority
+965,fsap,financial services action plan
+966,fsb,financial stability board
+967,fse,financial sector entity
+968,fsr,financial stability review
+969,fta,first time application
+970,ftp,funds transfer pricing
+971,fts,funds transfer system
+972,fv,fair value
+973,fva,funding valuation adjustments
+974,fvc,financial vehicle corporation
+975,fvo,fair value option
+976,fvoci,fair value through other comprehensive income
+977,fvtpl,fair value through profit or loss
+978,fx,foreign exchange
+979,gaap,generally accepted accounting principle
+980,gbv,gross book value
+981,gdp,gross domestic product
+982,ghos,group of central bank governors and heads of supervision
+983,gl,guidelines
+984,glra,group level resolution authority
+985,govc,governing council of the ecb
+986,gsf,group wide supervision framework
+987,g-sib,global systemically important bank
+988,g-sifi,global systemically important financial institution
+989,g-sii,global systemically important institution
+990,hft,held for trading
+991,hgb,handelsgesetzbuch
+992,hhi,herfindahl hirschman index
+993,hicp,harmonised index of consumer prices
+994,hla,higher loss absorbency
+995,hleg,high level expert group on sustainable finance
+996,hod,head of division
+997,hom,head of mission
+998,hqla,high quality liquid asset
+999,hrct,horizontal requests coordination
+1000,htc,held to collect
+1001,htcs,held to collect and sell
+1002,htm,held to maturity
+1003,ia,impact assessment
+1004,iaa,internal assessment approach
+1005,iaig,internationally active insurance group
+1006,iais,international association of insurance supervisors
+1007,ias,international accounting standards
+1008,iasb,international accounting standards board
+1009,iban,international bank account number
+1010,ibnr,incurred but not reported
+1011,ic,inflows subject to a cap of 75% of outflows
+1012,ica,internal capital adequacy
+1013,icaap,internal capital adequacy assessment process
+1014,icma,international capital market association
+1015,icpfs,insurance corporations and pension funds (icpfs)
+1016,icr,interest coverage ratio
+1017,ics,insurance capital standard
+1018,icsd,international central securities depository
+1019,idb,interdealer broker
+1020,if,investment fund
+1021,ifric,international financial reporting interpretations committee
+1022,ifrs,international financial reporting standards
+1023,ifts,interbank funds transfer system
+1024,ihc,inflows subject to higher cap of 90% outflows
+1025,ilaap,internal liquidity adequacy assessment process
+1026,ils,inflation linked swap
+1027,ima,internal models approach
+1028,imas,information management system for the ssm
+1029,imi,internal model investigation
+1030,imm,internal model method
+1031,inm,internal models division
+1032,ipc,irrevocable payments commitments
+1033,ips,institutional protection scheme
+1034,ir,interest rate
+1035,irb,internal ratings based
+1036,irba,internal ratings based approach
+1037,irc,incremental risk charge
+1038,irr,internal rate of return
+1039,irrbb,interest rate risk in the banking book
+1040,irs,interest rate swap
+1041,irt,internal resolution team
+1042,isa,international standards on auditing
+1043,isda,international swaps and derivatives association
+1044,isin,international securities identification number
+1045,jd,joint decision
+1046,jst,joint supervisory team
+1047,jstc,joint supervisory team coordinator
+1048,jv,joint venture
+1049,kbc,kbc bank
+1050,kri,key risk indicators
+1051,kwg,kreditwesengesetz
+1052,l/c,leter of credit
+1053,lac,loss absorbing capacity
+1054,las,liquidity adequacy statement
+1055,lca,local competent authority
+1056,lcbg,large and complex banking group
+1057,lcp,liquidity contingency plan
+1058,lcr,liquidity coverage ratio
+1059,lcr-da,liquidity coverage ratio delegated act
+1060,ldi,liability driven investment
+1061,lei,legal entity identifier
+1062,lgd,loss given default
+1063,lgi,loss given impairment
+1064,lgl,loss given loss
+1065,libor,london interbank offered rate
+1066,lifo,"last in, first out"
+1067,llp,loan loss provision
+1068,lnr,loans and receivables
+1069,lr,leverage ratio
+1070,lsi,less significant institution
+1071,lsoc,legal segregation with operational commingling
+1072,ltd,loan to deposit
+1073,ltg,long term guarantee
+1074,lti,loan to income
+1075,ltro,longer term refinancing operations
+1076,ltsf,loan to stable funding
+1077,ltt,long term treatment
+1078,ltv,loan to value
+1079,lux,luxembourg
+1080,lvnav,low volatility net asset value
+1081,m&a,merger and acquisition
+1082,map,model approval process
+1083,mbf,market based finance
+1084,mcd,mortgage credit directive
+1085,mcr,minimum capital requirement
+1086,mda,maximum distributable amount
+1087,mdb,multilateral development bank
+1088,mdp,multi dealer platform
+1089,mfc,(french) monetary and financial code
+1090,mfi,monetary financial institution
+1091,mifid,markets in financial instruments directive
+1092,mifir,markets in financial instruments regulation
+1093,mir,euro area and national mfi interest rate
+1094,mmf,money market fund
+1095,mms,money maket statistics
+1096,moce,margin over current estimate
+1097,mou,memorandum of understanding
+1098,mpe,multiple point of entry
+1099,mpor,margin period of risk
+1100,mps,macroprudential policy and surveillance
+1101,mr,market risk
+1102,mrel,minimum requirement for own funds and eligible liabilities
+1103,mro,main refinancing operation
+1104,msc,merchant service charge
+1105,msd,methodology and standards development division
+1106,msrs,mortgage servicing rights
+1107,mtf,multilateral trading facility
+1108,mtm,mark to market
+1109,nace,classification of economic activities in the european union
+1110,nav,net asset value
+1111,nb,novo banco
+1112,nbb,national bank of belgium
+1113,nbni,"non bank, non insurance"
+1114,nbv,net book value
+1115,nca,national competent authority
+1116,ncb,national central bank
+1117,ncp,notional cash pooling
+1118,ncwo,no creditor worse off
+1119,nda,national designated authority
+1120,ndb,national development bank
+1121,nem,national execution measures
+1122,nfc,non financial corporation
+1123,nfci,net fee and commission income
+1124,ngaap,national generally accepted accounting principles
+1125,nii,net interest income
+1126,nlo,net liquidity outflow
+1127,nmd,non maturity deposits
+1128,npe,non performing exposure
+1129,npl,non performing loan
+1130,npl wu,non performing loan workout unit
+1131,npv,net present value
+1132,nra,national resolution authority
+1133,nsa,national supervisory authority
+1134,nsfr,net stable funding ratio
+1135,ntni,non traditional non insurance
+1136,o&d,options and discretions
+1137,obs,off balance sheet
+1138,oci,other comprehensive income
+1139,oenb,oesterreichische nationalbank
+1140,ofi,other financial intermediary
+1141,ois,overnight index swap
+1142,ojeu,official journal of the eu
+1143,omt,outright monetary transaction
+1144,ond,options and national discretions
+1145,oprisk,operational risk
+1146,osa,omnibus segregated account
+1147,osi,on site inspection
+1148,o-sii,other systemically important institution
+1149,otc,over the counter
+1150,otf,organised trading facility
+1151,p2g,pillar 2 guidance
+1152,p2r,pillar 2 requirements
+1153,pbo,projected benefit obligations
+1154,pcp,physical cash pooling
+1155,pcs,planning and coordination of sep division
+1156,pd,probability of default
+1157,pdh,private dwellings and households
+1158,pe-ach,pan european automated clearing house
+1159,pfmi,principles for financial market infrastructures
+1160,pi,probability of impairment
+1161,pin,personal identification number
+1162,pln,polish zloty
+1163,poci,purchased or originated credit impaired assets
+1164,porcs,producer owned reinsurance companies
+1165,pos,point of sale
+1166,pp&a,"processes, policies and accounting"
+1167,ppi,prudential policy index
+1168,ppu,permanent partial use
+1169,pra,prudential regulation authority
+1170,pse,public sector entity
+1171,psp,payment service provider
+1172,pspp,public sector purchase programme
+1173,pv,present value
+1174,pvp,payment versus payment
+1175,qa,quality assurance
+1176,qccp,qualifying central counterparty
+1177,qis,quantitative impact study
+1178,qoq,quarter on quarter
+1179,ra,resolution authority
+1180,raf,risk appetite framework
+1181,rag,red/amber/green
+1182,ras,risk assessment system
+1183,rba,ratings based approach
+1184,rbc,real business cycle (model)
+1185,rc,risk control
+1186,rcap,regulatory consistency assessment programme
+1187,rdarr,risk data aggregation and risk reporting
+1188,repo,repurchase agreement
+1189,rfq,request for quote
+1190,rgla,regional governments or local authorities
+1191,ria,risk analysis division
+1192,rl,risk level
+1193,rmbs,residential mortgage based security
+1194,rmf,risk management function
+1195,rmp,risk mitigation programme
+1196,roa,return on assets
+1197,roc,return on capital
+1198,roe,return on equity
+1199,roi,return on investment
+1200,rre,residential real estate
+1201,rsf,required stable funding
+1202,rtgs,real time gross settlement
+1203,rts,regulatory technical standard
+1204,rw,risk weights
+1205,rwa,risk weighted assets
+1206,s&p,standard & poors
+1207,sa,standardised approach
+1208,sa-ccr,standardised approach to counterparty credit risk
+1209,sb,supervisory board
+1210,sbbs,sovereign bond backed security
+1211,sbs,security based swap
+1212,sccl,single counterparty credit limits
+1213,scr,solvency capital requirement
+1214,scwp,supervisory convergence work programme
+1215,sdd,sepa direct debit
+1216,sdp,single dealer platform
+1217,sdw,statistical data warehouse
+1218,seb,skandinaviska enskilda banken
+1219,sec,securities and exchange commission
+1220,sep,supervisory examination programme
+1221,sepa,single european payments area
+1222,sfm,supervisory formula method
+1223,sft,securities financing transaction
+1224,si,systematic internaliser
+1225,sib,systemically important bank
+1226,sii,systemically important institution
+1227,sips,systemically important payment system
+1228,siv,structured investment vehicle
+1229,sla,supervisory law division
+1230,sme,small and medium sized enterprise
+1231,smp,securities markets programme
+1232,snlp,stressed net liquidity position
+1233,solvv,german solvability regulation
+1234,sorp,statement of recommended practice
+1235,spd,single programming document
+1236,spe,special purpose entity
+1237,spo,supervisory policies division
+1238,sppi,solely payments of principal and interest
+1239,spv,special purpose vehicle
+1240,srb,systemic risk buffer
+1241,srep,supervisory review and evaluation process
+1242,srf,single resolution fund
+1243,srm,single resolution mechanism
+1244,srt,significant risk transfer
+1245,ssg,ssm simplification group
+1246,ssm,single supervisory mechanism
+1247,ssmfr,ssm framework regulation
+1248,ssmr,single supervisory mechanism regulation
+1249,ssp,single shared platform
+1250,sspe,securitisation special purpose entity
+1251,ssr,short selling regulation
+1252,sss,securities settlement system
+1253,st,stress test
+1254,star,stress test account reporting
+1255,ste,short term exercise
+1256,steg,stress test expert group
+1257,step,short term european paper
+1258,stfr,short term floating rate
+1259,stp,straight through processing
+1260,str,suspicious transaction reporting
+1261,sts,"simple, transparent and standardised"
+1262,suba,supervisory banking data
+1263,svar,stressed value at risk
+1264,swot,swot
+1265,t2s,target2 securities
+1266,target2,trans european automated real time gross settlement express transfer system
+1267,tb,trading book
+1268,teu,treaty on the eu
+1269,tfeu,treaty on the functioning of the eu
+1270,ti,total inflows
+1271,tier1,tier 1
+1272,tlac,total loss absorbing capacity
+1273,tltro,targeted long term refinancing operation
+1274,pnl,profit_and_loss
+1275,tr,trade repository
+1276,trim,targeted review on internal models
+1277,trimi,trim project investigation
+1278,trn,transaction reference number
+1279,trs,total return swap
+1280,tsa,traditional standardised approach
+1281,tscr,total srep capital requirements
+1282,ucits,undertaking for collective investment in transferable securities
+1283,uk,united kingdom
+1284,upi,unique product identifier
+1285,us,united states
+1286,usd,american dollar
+1287,usgaap,generally accepted accounting principles in usa
+1288,uti,unique transaction identifier
+1289,utp,unlikely to pay
+1290,var,value at risk
+1291,vc,venture capital
+1292,vix,chicago board options exchanges volatility index
+1293,vnav,variable net asset value
+1294,vrdn,variable rate demand note
+1295,wcca,written coordination and cooperation arangements
+1296,ykra,yearly key risk assessment
+1297,yrt,yearly renewable term
+1298,ytd,year to date
+1299,noi,net operating income
+1300,commodities,commodity
+1301,programme,program
+1302,nii,net interest income
+1303,p&l,profit_and_loss
+1304,p/l,profit and loss
+1305,ocr,overall capital requirement
+1306,pepp,pandemic emergency purchase programme
+1307,dpd,days past due
+1308,imf,international monetary fund
+1309,yoy,year over year
+1310,gov,government
+1311,digitalization,digitalisation
+1312,digitisation,digitalisation
+1313,digitization,digitalisation
+1314,it-project,it_project
+1315,covid19,covid
+1316,am,asset management
+1317,liq,liquidity
+1318,cfp,contingency_funding_plan
+1319,ela,emergency_liquidity_assisstance
+1320,pepp,pandemic_emergency_purchase_programme
+1321,npls,non performing loan
+1322,le,large exposure
+1323,rcf,revolving credit facility
+1324,mb,management board
+1325,cor,cost_risk
+1326,kyc,know_your_customer
+1327,ctf,counter_terrorism_financing
+1328,cft,counter_terrorism_financing
+1329,ml,money_laundering
+1330,anti-money laundering,anti_money_laundering
+1331,anti-money,anti_money_laundering
+1332,ml_tf,money_laundering
