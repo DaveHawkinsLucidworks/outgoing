@@ -1,0 +1,333 @@
+extract filetype
+
+function (doc, ctx) {
+  
+    var sourceField = doc.getFirstFieldValue('absolute_resource_name');
+    var types= {
+      "xlsx$": "xls",
+      "pptx$": "ppt",
+      "docx$": "doc",
+      "pdf$": "pdf",
+      "xls$": "xls",
+      "txt$": "txt",
+      "doc$": "doc",
+      "ai$": "ai",
+      "avi$": "avi",
+      "css$": "css",
+      "csv$": "csv",
+      "dbf$": "dbf",
+      "dwg$": "dwg",
+      "file$": "file",
+      "html$": "html",
+      "jpg$": "jpg",
+      "png$": "png",
+      "ppt$": "ppt",
+      "rtf$": "rtf",
+      "xml$": "xml",
+      "zip$": "zip",
+      "avi$": "avi",
+      "mp4$": "mp4",
+      "mp3$": "mp3"
+    }
+    if(sourceField != null){
+      for (var key in types) {
+          var rgx = new RegExp(key,"g");
+          if(sourceField.match(rgx)){
+            doc.addField('fusion_filetype_ss', types[key]);  
+            break;
+          }
+      } 
+      /*
+      var s = sourceField.split('/'); 
+      for (var i=0; i < s.length; i++) {
+        if(i == s.length - 1){
+          // EXTRACT JST CODE and Doc Type
+          re = /^([A-Z]*?)_/;
+          mm = s.match(re);
+          if(mm){
+          doc.addField('jst_code', mm[0]);
+        }
+
+        }
+      }  */  
+    }
+  return doc;
+}
+
+
+>> Create anchors hierarchy
+function (doc, ctx) {
+  // add your logic here
+  var bizModels = {
+      "e1_interest_income": "Interest Income",
+      "e1_strategy":"Strategy",
+      "e1_fee_commision":"Fee Commission",
+      "e1_diversification":"Diversification",
+      "e1_overheadcost":"Overhead and Costs",
+      "e1_digitalisation":"Digitalisation",
+      "e1_digitaldistro":"Digital Distrobution",
+      "e1_esgrisks":"ESG Risks",
+      "e1_probratio":"Profitability and Profitability Ratios",
+      "e1_investratio":"Investment Result",
+      "e1_impairprov":"Impairment and Provision"
+  };
+  var rateRiskBanking = {
+      "e1_interest_income": "Interest Income",
+      "e1_probratio":"Profitability and Profitability Ratios"
+  };
+
+  var marketRisk = {
+      "e1_probratio":"Profitability and Profitability Ratios",
+      "e1_investratio":"Investment Result"      
+  };
+
+  var opRisk = {
+      "e1_digitaldistro":"Digital Distrobution",
+      "e1_impairprov":"Impairment and Provision",
+
+  };
+
+var capAde = {
+    "e3_captialhead":"Capital headroom",
+    "e3_captialratio":"Capital and Capital Ratio"
+};
+
+  var credRisk = {
+      "e3_creditrisk":"Credit Risk",
+      "e3_creditunderwrite":"Credit Underwriting",
+      "e3_creditfac":"Credit Facilities",
+      "e3_internalmodel":"Internal Model",
+      "e3_delayedpay":"Delayed and Interrupted Payments",
+      "e3_defaultloan":"Defaulted loans"
+  };
+
+  for(var key in bizModels)
+  {
+    var sourceField = doc.getFieldValues(key);
+    if(sourceField != null)
+    {
+      for(var i=0;i<sourceField.length;i++)
+      {
+        doc.addField('topic_location_ss_parent','0/Business Model');
+        doc.addField('topic_location_ss_parent','1/Business Model/'+bizModels[key]);
+        doc.addField('topic_location_ss','0/Business Model');
+        doc.addField('topic_location_ss','1/Business Model/'+bizModels[key]);
+        doc.addField('topic_location_ss','2/Business Model/'+bizModels[key]+"/"+sourceField[i].toUpperCase());
+      }      
+    }
+  }
+
+  for(var key in rateRiskBanking)
+  {
+    var sourceField = doc.getFieldValues(key);
+    if(sourceField != null)
+    {
+      for(var i=0;i<sourceField.length;i++)
+      {
+        doc.addField('topic_location_ss_parent','0/Interest Rate Risk');
+        doc.addField('topic_location_ss_parent','1/Interest Rate Risk/'+rateRiskBanking[key]);
+        doc.addField('topic_location_ss','0/Interest Rate Risk');
+        doc.addField('topic_location_ss','1/Interest Rate Risk/'+rateRiskBanking[key]);
+        doc.addField('topic_location_ss','2/Interest Rate Risk/'+rateRiskBanking[key]+"/"+sourceField[i].toUpperCase());
+      }      
+    }
+  }
+
+  for(var key in marketRisk)
+  {
+    var sourceField = doc.getFieldValues(key);
+    if(sourceField != null)
+    {
+      for(var i=0;i<sourceField.length;i++)
+      {
+        doc.addField('topic_location_ss_parent','0/Market Risk');
+        doc.addField('topic_location_ss_parent','1/Market Risk/'+marketRisk[key]);
+        doc.addField('topic_location_ss','0/Market Risk');
+        doc.addField('topic_location_ss','1/Market Risk/'+marketRisk[key]);
+        doc.addField('topic_location_ss','2/Market Risk/'+marketRisk[key]+"/"+sourceField[i].toUpperCase());
+      }      
+    }
+  }
+
+  for(var key in opRisk)
+  {
+    var sourceField = doc.getFieldValues(key);
+    if(sourceField != null)
+    {
+      for(var i=0;i<sourceField.length;i++)
+      {
+        doc.addField('topic_location_ss_parent','0/Operational Risk');
+        doc.addField('topic_location_ss_parent','1/Operational Risk/'+opRisk[key]);
+        doc.addField('topic_location_ss','0/Operational Risk');
+        doc.addField('topic_location_ss','1/Operational Risk/'+opRisk[key]);
+        doc.addField('topic_location_ss','2/Operational Risk/'+opRisk[key]+"/"+sourceField[i].toUpperCase());
+      }      
+    }
+  }  
+
+  for(var key in capAde)
+  {
+    var sourceField = doc.getFieldValues(key);
+    if(sourceField != null)
+    {
+      for(var i=0;i<sourceField.length;i++)
+      {
+        doc.addField('topic_location_ss_parent','0/Capital Adequacy');
+        doc.addField('topic_location_ss_parent','1/Capital Adequacy/'+capAde[key]);
+        doc.addField('topic_location_ss','0/Capital Adequacy');
+        doc.addField('topic_location_ss','1/Capital Adequacy/'+capAde[key]);
+        doc.addField('topic_location_ss','2/Capital Adequacy/'+capAde[key]+"/"+sourceField[i].toUpperCase());
+      }      
+    }
+  }   
+
+  for(var key in credRisk)
+  {
+    var sourceField = doc.getFieldValues(key);
+    if(sourceField != null)
+    {
+      for(var i=0;i<sourceField.length;i++)
+      {
+        doc.addField('topic_location_ss_parent','0/Credit Risk');
+        doc.addField('topic_location_ss_parent','1/Credit Risk/'+credRisk[key]);
+        doc.addField('topic_location_ss','0/Credit Risk');
+        doc.addField('topic_location_ss','1/Credit Risk/'+credRisk[key]);
+        doc.addField('topic_location_ss','2/Credit Risk/'+credRisk[key]+"/"+sourceField[i].toUpperCase());
+      }      
+    }
+  } 
+  doc.addField("data_source", "Internal");  
+  return doc;
+}
+
+>> Grab Location Directory
+function (doc, ctx) {
+  // add your logic here
+    var sourceField = doc.getFirstFieldValue('absolute_resource_name');
+    if(sourceField != null){
+      sourceField = sourceField.replace(/.*#/g, '');
+      var s = sourceField.split('/');
+      var hierarchyLoc = "";
+      //Split document URL into levels
+      for (var i=0; i < s.length; i++) {
+        if(i == s.length - 1){
+          break;
+        }
+        //doc.addField('file_location_' + i , s[i]);
+        doc.addField('file_location_ss', i + "/" + hierarchyLoc + s[i]);
+        if(i != s.length - 2){
+        doc.addField('file_location_ss_parent', i + "/" + hierarchyLoc + s[i]);
+        }
+        hierarchyLoc += hierarchyLoc + s[i] + "/";
+      }
+    }
+  return doc;
+}
+
+
+>> Sentiment and ent anal
+function (doc, ctx) {
+  // HTTP POST CLASSES
+  var HttpClientBuilder = Java.type('org.apache.http.impl.client.HttpClientBuilder');
+  var HttpPost = Java.type('org.apache.http.client.methods.HttpPost');
+
+  var StringEntity = Java.type('org.apache.http.entity.StringEntity');
+  var ContentType = Java.type('org.apache.http.entity.ContentType');
+
+  var HttpEntity = Java.type('org.apache.http.entity.HttpEntityWrapper');
+  var EntityUtils = Java.type('org.apache.http.util.EntityUtils');
+
+  var JSONObject = Java.type('org.json.JSONObject');
+  var JSONArray = Java.type('org.json.JSONArray');
+  var JSONObject = Java.type('org.json.JSONObject');
+
+  var url = "http://ec2-18-192-205-196.eu-central-1.compute.amazonaws.com:8181//rest/v1/sentiment";
+  var dataString = null;
+  var sourceField = null;
+
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  // CAPTURE CURRENT DOCUMENT BODY
+  //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+    if(doc.hasField('text_eng')){
+      
+    sourceField = doc.getFirstFieldValue('text_eng');
+    sourceField = sourceField.replaceAll('[^a-zA-Z0-9 -\.]','');
+    if(sourceField.length > 50000){
+      sourceField = sourceField.substring(0,48999);
+    }
+
+    dataString = '{"language":"eng","content": "' + sourceField + '"}';
+    doc.setField('text_eng',sourceField);
+
+    }
+    else if(doc.hasField('text_fra')){
+      
+    sourceField = doc.getFirstFieldValue('text_fra');
+    sourceField = sourceField.replaceAll('[^a-zA-Z0-9 -\.]','');
+    if(sourceField.length > 50000){
+      sourceField = sourceField.substring(0,48999);
+    }
+
+    dataString = '{"language":"fra","content": "' + sourceField + '"}';
+    doc.setField('text_fra',sourceField);
+    
+    }
+     else if(doc.hasField('text_spa')){
+      
+    sourceField = doc.getFirstFieldValue('text_spa');
+
+    dataString = '{"language":"spa","content": "' + sourceField + '"}';
+
+    }   
+  if(dataString != null){
+
+    //>>>>>>>>>>>>>>>>>>
+    //BUILD REQUEST
+    //>>>>>>>>>>>>>>>>>>
+
+  var client = HttpClientBuilder.create().build();
+  var request = new HttpPost(url);
+
+  request.setHeader("accept", "application/json");
+  request.setHeader("Content-Type","application/json");
+
+  request.setEntity(new StringEntity(dataString,"UTF-8"));
+
+  // SEND
+  rsp = client.execute(request);
+
+  // RESPONSE
+  resEntity = new HttpEntity(rsp.getEntity());
+  response = EntityUtils.toString(resEntity,"UTF-8");
+  jsonResult = new JSONObject(response);
+  jsonValue = JSON.parse(jsonResult);
+
+
+  doc.addField("FUSION_SENTIMENT_SCORE_f",jsonValue.document.confidence);
+  doc.addField("FUSION_SENTIMENT_LABEL_ss",jsonValue.document.label);  
+
+  for(var i = 0; i < jsonValue.entities.length; i++) {
+    entName = jsonValue.entities[i].normalized;
+    entType = jsonValue.entities[i].type;
+    entSent = jsonValue.entities[i].sentiment.label;
+    //doc.addField("FUSION_NAME_" + entType + "_ss",entName);
+
+    
+    doc.addField("FUSION_NAME_" + entType + "_ss_parent","0/"+entName);
+    doc.addField("FUSION_NAME_" + entType + "_ss","0/"+entName);
+    doc.addField("FUSION_NAME_" + entType + "_ss","1/"+entName+"/"+entSent);
+
+    //>>>>>>>>>>>>>>>>>>>>
+    // ANNOTATE BODY WITH DISCOVERED ENTITIES
+    //>>>>>>>>>>>>>>>>>>>>
+    
+  }
+ 
+  doc.addField("FUSION_ALL",jsonResult.toString());
+    
+  }
+
+return doc;
+}
+
