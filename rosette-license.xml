@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Basis Technology License -->
+<BTLicense>
+  <generator>jasons</generator>
+  <customer>European Central Bank</customer>
+  <orderid>18622</orderid>
+  <expiration>Jul 3, 2021</expiration>
+    <license>
+         <module>Rosette</module>
+              <language>English</language>
+          <function>sentiment,entities,language,tokens</function>
+            <license_key>940889B8C3F5E718848DDE555D4A2F33A59A804641CBE835934028CABD729AEAB97FB242A99C7035934C6C6BA7CFA166F5AB02CCC2F043B51E61F533218BA527ABB48682F50FC4423CE3CB1ABE5DEAF6766D9D48F0658AA6</license_key>
+      </license>
+    <license>
+         <module>Rosette</module>
+              <language>French</language>
+          <function>sentiment,entities,language,tokens</function>
+            <license_key>BAA8F6DD124D692F20D44ABC13EC4995A59A804641CBE835A66EAECDFD2F6B325D1A6E1F34FB5ECA934C6C6BA7CFA166F5AB02CCC2F043B51E61F533218BA527ABB48682F50FC4423CE3CB1ABE5DEAF6766D9D48F0658AA6</license_key>
+      </license>
+    <license>
+         <module>Rosette</module>
+              <language>Spanish</language>
+          <function>sentiment,entities,language,tokens</function>
+            <license_key>89A31670E1555EC13041D46AF241CF66A59A804641CBE835934028CABD729AEA27D340BB826E10A4934C6C6BA7CFA166F5AB02CCC2F043B51E61F533218BA527ABB48682F50FC4423CE3CB1ABE5DEAF6766D9D48F0658AA6</license_key>
+      </license>
+</BTLicense>
